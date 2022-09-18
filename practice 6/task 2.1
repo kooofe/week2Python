@@ -1,0 +1,5 @@
+arr = input("enter the array: ")
+list_new = list(map(int, arr.split()))
+# min
+list_new.sort(reverse=True)
+print("min numb in array: ", list_new[len(list_new)-1])
