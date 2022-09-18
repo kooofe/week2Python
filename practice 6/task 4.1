@@ -1,0 +1,17 @@
+arr = input("enter the array: ")
+list_new = list(map(int, arr.split()))
+# max
+max = list_new[0]
+maxID = 0
+for i in range(len(list_new)):
+    if list_new[i] >= max:
+        max = list_new[i]
+        maxID = i
+
+print("max numb in array: ", max)
+print("ordinal numb for him",end=" ")
+
+if maxID == 0: print("1th")
+elif maxID == 1:print("2nd")
+elif maxID == 2:print("3rd")
+else: print('{}th'.format(maxID+1))
