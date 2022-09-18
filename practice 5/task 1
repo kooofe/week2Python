@@ -1,0 +1,7 @@
+s = input("ru text pl\n")
+n = 0
+list = s.split(' ')
+for x in list:
+    if x[0] == 'е':
+        n = n + 1
+print(n)
