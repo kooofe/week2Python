@@ -9,7 +9,7 @@ for char in s:
             n = m
             m = 0
 
-s = s.replace('n', '.')
+s = s.replace('!', '.')
 
 print("the longest sequence:", n)
 print("Converted str:",s)
