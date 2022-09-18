@@ -1,0 +1,7 @@
+s = input('enter the line\n')
+s1 = s.split()
+for char in s1:
+    if char[len(char) - 1] == "i":
+        print(char, end=" ")
+    elif char[0] == "a":
+        print(char, end=" ")
