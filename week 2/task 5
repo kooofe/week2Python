@@ -1,0 +1,13 @@
+def list_sort(lst):
+    lst.sort(reverse=True, key=absvalue)
+    return lst
+
+
+def absvalue(val):
+    return abs(val)
+
+
+arr = input("enter the array: ")
+list_new = list(map(float, arr.split()))
+
+print(list_sort(list_new))
