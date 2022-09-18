@@ -1,0 +1,6 @@
+s = input('enter the line\n')
+n = 0
+for char in s:
+    if char[len(char) - 1] == "t":
+        n+=1
+print(n)
