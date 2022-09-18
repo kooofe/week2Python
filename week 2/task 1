@@ -1,0 +1,5 @@
+arr = input("enter the list: ")
+list_new = list(map(str, arr.split()))
+
+list_new.sort(reverse=True)
+print(list_new)
