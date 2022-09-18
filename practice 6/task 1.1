@@ -1,0 +1,10 @@
+arr = input("enter the array: ")
+list_new = list(map(int, arr.split()))
+# max
+new_list = list_new
+new_list.sort()
+print("max numb in array: ", new_list[len(list_new)-1])
+# reverse
+print("array in reverse order: ", end="")
+for i in range(0, len(list_new)):
+    print(list_new[len(list_new) - i - 1], end=' ')
