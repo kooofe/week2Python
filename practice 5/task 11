@@ -1,0 +1,15 @@
+s = input('enter the line\n')
+n, m = 0, 0
+
+for char in s:
+    if char == 'n':
+        m += 1
+    if char != 'n':
+        if n < m:
+            n = m
+            m = 0
+
+s = s.replace('n', '.')
+
+print("the longest sequence:", n)
+print("Converted str:",s)
