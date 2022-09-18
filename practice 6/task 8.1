@@ -1,0 +1,12 @@
+arr = input("enter the array: ")
+list_new = list(map(float, arr.split()))
+
+sum = 0
+product = 1
+
+for i in list_new:
+    sum+= i
+    product *= i
+
+print("sum:",sum)
+print(("product",product))
