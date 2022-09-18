@@ -1,0 +1,10 @@
+s = input('enter the line\n')
+list_new = s.split(' ')
+nW = input('enter the needed word\n')
+n = 0
+
+for char in list_new:
+    if char == nW:
+        n += 1
+
+print(n)
