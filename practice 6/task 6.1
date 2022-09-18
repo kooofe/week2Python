@@ -1,0 +1,8 @@
+arr = input("enter the array: ")
+list_new = list(map(int, arr.split()))
+
+list_new.sort()
+print("max numb in array: ", list_new[len(list_new)-1])
+
+list_new.sort(reverse=True)
+print("min numb in array: ", list_new[len(list_new)-1])
