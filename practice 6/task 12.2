@@ -1,0 +1,10 @@
+arr1 = input("enter the array1: ")
+list_new1 = list(map(float, arr1.split()))
+
+arr2 = input("enter the array2: ")
+list_new2 = list(map(float, arr2.split()))
+# swap
+list_new2,list_new1 = list_new1,list_new2
+
+print("Array 1:",list_new1)
+print("Array 2:",list_new2)
