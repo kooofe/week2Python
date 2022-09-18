@@ -1,0 +1,8 @@
+s = input('enter the line\n')
+n = 0
+for char in s:
+    if char == "a":
+        n += 1
+        s = s.replace(char, "")
+print(s)
+print(n)
