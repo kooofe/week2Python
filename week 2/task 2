@@ -1,0 +1,9 @@
+def change(list):
+    list[0], list[len(list) - 1] = list[len(list) - 1], list[0]
+    return list
+
+
+arr = input("enter the array: ")
+list_new = list(map(str, arr.split()))
+
+print(change(list_new))
