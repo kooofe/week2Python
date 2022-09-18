@@ -1,0 +1,10 @@
+def useless(list):
+    numb = max(list) / len(list)
+    return numb
+
+
+n = int(input("length of array: "))
+arr = input("enter the array: ")
+list_new = list(map(float, arr.split()))
+
+print("the numb is :", useless(list_new))
