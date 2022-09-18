@@ -1,0 +1,10 @@
+s = input('enter the line\n')
+n1, n2 = 0, 0
+
+for char in range(len(s)):
+    if s[char] == "(":
+        n1 = char
+    elif s[char] == ")":
+        n2 = char
+for char in range(n1 + 1, n2):
+    print(s[char], end="")
