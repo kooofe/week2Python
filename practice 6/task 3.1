@@ -1,0 +1,8 @@
+import itertools
+D = input("enter the array: ")
+list_new = list(map(float, D.split()))
+
+result = sum(itertools.islice(list_new, 0,len(list_new),2))
+
+print("The D array:", list_new)
+print("Sum of odd elements:", result)
